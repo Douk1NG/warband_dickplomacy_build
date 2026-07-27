@@ -6,23 +6,23 @@ pt_enemy Enemy 2 0 29 7 -1 -1 -1 -1 -1 -1
 pt_hero_party Hero_Party 2 0 1 7 -1 -1 -1 -1 -1 -1 
 pt_village_defenders Village_Defenders 6 0 1 7 25 10 20 0 194 0 4 0 -1 -1 -1 -1 
 pt_cattle_herd Cattle_Herd 2814749767106598 0 3 7 24 80 120 0 -1 -1 -1 -1 -1 
-pt_looters Looters 2251799813685257 0 2 312 174 3 45 0 -1 -1 -1 -1 -1 
-pt_manhunters Manhunters 2 0 25 137 184 9 40 0 -1 -1 -1 -1 -1 
-pt_steppe_bandits Steppe_Bandits 562949953421320 0 2 312 180 4 58 0 -1 -1 -1 -1 -1 
-pt_taiga_bandits Tundra_Bandits 562949953421528 0 2 312 181 4 58 0 -1 -1 -1 -1 -1 
-pt_desert_bandits Desert_Bandits 562949953421319 0 2 312 182 4 58 0 -1 -1 -1 -1 -1 
-pt_forest_bandits Forest_Bandits 562949953421526 0 28 312 178 4 52 0 -1 -1 -1 -1 -1 
-pt_mountain_bandits Mountain_Bandits 562949953421525 0 27 312 177 4 60 0 -1 -1 -1 -1 -1 
-pt_sea_raiders Sea_Raiders 562949953421527 0 2 312 179 5 50 0 -1 -1 -1 -1 -1 
+pt_looters Looters 2251799813685257 0 2 312 174 3 50 0 -1 -1 -1 -1 -1 
+pt_manhunters Manhunters 2 0 25 137 188 1 1 0 184 10 15 0 185 10 15 0 186 5 10 0 187 4 9 0 -1 
+pt_steppe_bandits Steppe_Bandits 562949953421320 0 2 312 180 10 50 0 -1 -1 -1 -1 -1 
+pt_taiga_bandits Tundra_Bandits 562949953421528 0 2 312 181 10 50 0 -1 -1 -1 -1 -1 
+pt_desert_bandits Desert_Bandits 562949953421319 0 2 312 182 10 50 0 -1 -1 -1 -1 -1 
+pt_forest_bandits Forest_Bandits 562949953421526 0 28 312 178 10 50 0 -1 -1 -1 -1 -1 
+pt_mountain_bandits Mountain_Bandits 562949953421525 0 27 312 177 10 50 0 -1 -1 -1 -1 -1 
+pt_sea_raiders Sea_Raiders 562949953421527 0 2 312 179 10 50 0 -1 -1 -1 -1 -1 
 pt_deserters Deserters 844424930131971 0 26 312 -1 -1 -1 -1 -1 -1 
 pt_merchant_caravan Merchant_Caravan 5629499534606373 0 1 11 195 1 1 0 28 5 25 0 -1 -1 -1 -1 
 pt_troublesome_bandits Troublesome_Bandits 2533274790658057 0 2 312 175 14 55 0 -1 -1 -1 -1 -1 
 pt_bandits_awaiting_ransom Bandits_Awaiting_Ransom 2533274790789129 0 3 312 175 24 58 0 196 1 1 1 -1 -1 -1 -1 
 pt_kidnapped_girl Kidnapped_Girl 262154 0 3 7 196 1 1 0 -1 -1 -1 -1 -1 
 pt_village_farmers Village_Farmers 67108870 0 4 7 25 5 10 0 194 3 8 0 -1 -1 -1 -1 
-pt_spy_partners Unremarkable_Travellers 2814749767434241 0 3 7 922 1 1 0 28 5 11 0 -1 -1 -1 -1 
+pt_spy_partners Unremarkable_Travellers 2814749767434241 0 3 7 948 1 1 0 28 5 11 0 -1 -1 -1 -1 
 pt_runaway_serfs Runaway_Serfs 2251799814012934 0 3 7 25 6 7 0 194 3 3 0 -1 -1 -1 -1 
-pt_spy Ordinary_Townsman 1125899907170305 0 3 7 921 1 1 0 -1 -1 -1 -1 -1 
+pt_spy Ordinary_Townsman 1125899907170305 0 3 7 947 1 1 0 -1 -1 -1 -1 -1 
 pt_sacrificed_messenger Sacrificed_Messenger 844424930459650 0 3 7 -1 -1 -1 -1 -1 -1 
 pt_forager_party Foraging_Party 1407374887747586 0 1 7 -1 -1 -1 -1 -1 -1 
 pt_scout_party Scouts 281474980904962 0 1 312 -1 -1 -1 -1 -1 -1 
@@ -62,18 +62,18 @@ pt_mountain_bandit_lair Mountain_Bandit_Hideout 562949955519676 0 3 312 177 15 5
 pt_sea_raider_lair Sea_Raider_Landing 562949955519676 0 3 312 179 15 50 0 -1 -1 -1 -1 -1 
 pt_looter_lair Kidnappers'_Hideout 562949955519676 0 3 312 174 15 25 0 -1 -1 -1 -1 -1 
 pt_bandit_lair_templates_end {!}bandit_lair_templates_end 562949953422345 0 2 312 179 15 50 0 -1 -1 -1 -1 -1 
-pt_leaded_looters Band_of_robbers 2251799813947401 0 3 312 1001 1 1 0 174 3 3 0 -1 -1 -1 -1 
+pt_leaded_looters Band_of_robbers 2251799813947401 0 3 312 1027 1 1 0 174 3 3 0 -1 -1 -1 -1 
 pt_dplmc_spouse Your_spouse 71303179 0 3 7 -1 -1 -1 -1 -1 -1 
 pt_dplmc_gift_caravan Your_Caravan 7036874421960741 0 1 11 195 1 1 0 28 5 25 0 -1 -1 -1 -1 
-pt_dplmc_recruiter Recruiter 4194309 0 3 7 1010 1 1 0 -1 -1 -1 -1 -1 
-pt_black_khergit_raiders Black_Khergit_Raiders 562949953421515 0 24 312 1053 3 30 0 183 10 40 0 -1 -1 -1 -1 
-pt_dark_hunters Dark_Hunters 844424930132185 0 6 137 1054 4 42 0 1055 13 25 0 -1 -1 -1 -1 
+pt_dplmc_recruiter Recruiter 4194309 0 3 7 1036 1 1 0 -1 -1 -1 -1 -1 
+pt_black_khergit_raiders Black_Khergit_Raiders 562949953421515 0 24 312 1079 3 30 0 183 10 40 0 -1 -1 -1 -1 
+pt_dark_hunters Dark_Hunters 844424930132185 0 6 137 1080 4 42 0 1081 13 25 0 -1 -1 -1 -1 
 pt_refugees Refugees 10 0 4 7 193 19 48 0 -1 -1 -1 -1 -1 
 pt_women Peasant_Women 10 0 4 7 194 3 8 0 -1 -1 -1 -1 -1 
-pt_sea_raiders_ship Sea_Raiders 562949953422043 0 2 312 179 40 45 0 -1 -1 -1 -1 -1 
-pt_corsair_ship Corsairs 562949953422045 0 2 312 179 40 45 0 -1 -1 -1 -1 -1 
+pt_sea_raiders_ship Sea_Raiders 562949953422043 0 2 312 179 20 20 0 -1 -1 -1 -1 -1 
+pt_corsair_ship Corsairs 562949953422045 0 2 312 179 20 20 0 -1 -1 -1 -1 -1 
 pt_merchant_ship Merchant_Vessel 14073748839727839 0 1 7 195 1 1 0 29 5 10 0 31 10 25 0 -1 -1 -1 
-pt_pirate_ship Pirates 562949953422049 0 2 312 179 40 45 0 -1 -1 -1 -1 -1 
+pt_pirate_ship Pirates 562949953422049 0 2 312 179 20 20 0 -1 -1 -1 -1 -1 
 pt_reinforcements Reinforcements 4194313 0 1 137 -1 -1 -1 -1 -1 -1 
 pt_cstm_kingdom_player_1_tier_0_reinforcements_a {!}cstm_kingdom_player_1_tier_0_reinforcements_a 0 0 1 0 113 5 10 0 114 2 4 0 -1 -1 -1 -1 
 pt_cstm_kingdom_player_1_tier_0_reinforcements_b {!}cstm_kingdom_player_1_tier_0_reinforcements_b 0 0 1 0 115 5 10 0 -1 -1 -1 -1 -1 

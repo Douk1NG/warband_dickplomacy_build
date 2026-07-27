@@ -12,7 +12,6 @@ ui_enable_vertex_shaders|Render Method:
 ui_shadow_quality|Shadow Quality:
 ui_directx_7|DirectX 7
 ui_directx_9|DirectX 9
-ui_show_framerate|Show Framerate
 ui_start_windowed|Start Windowed
 ui_trialmode_caption|Activation
 ui_trialmode|Please take a moment to activate Mount&&Blade Warband with your serial key. Your unique, 16-digit serial key is included inside your boxed copy.\nIf you don't wish to activate the game now for any reason, you can still continue to play the game in trial mode, however you won't be able to advance past character level 8.
@@ -58,13 +57,11 @@ ui_notification_unable_to_retreive_new_version|Unable to retrieve new version in
 ui_new_version|New Version:
 ui_notification_latest_version|The installed version of Mount&&Blade Warband is the most current one.
 ui_mount_and_blade_is_up_to_date|Mount&Blade Warband is up-to-date!
-ui_off|Off
 ui_continue_playing_the_trial_mode|Continue playing in Trial Mode
 ui_faq_caption|FAQ
 ui_faq_text|Q: What is activation?\r\nA: The activation system is a user-friendly copy-protection method which is based on distributing a unique serial key along with each copy of the game. You need to activate the game once on every computer that you want to play the game with your serial key. After activating once, you don't need to do anything else to play such as keeping the game disc in the drive. As long as you keep your serial key, you will be able to activate and play the game easily, even after many years.\r\n\r\nQ: Where can I find my serial key?\r\nA: Each boxed copy of the game includes a unique serial key. Different vendors may distribute the keys in different ways, but it is typically attached to the cover of your printed manual. If you have purchased your game online, then the online vendor should supply you your serial key.\r\n\r\nQ: How does the activation process work?\r\nA: The game creates a hash-value from the specifications of your computer and sends it to an activation server over the internet together with your serial key. The activation server registers the serial key to your computer and responds with an activation number, which then unlocks the full mode of the game.\r\n\r\nQ: Can I activate the game on multiple computers?\r\nA: Yes, you can. But please remember that the game is licensed to you for your own personal use. The activation server may reject a serial key temporarily if it is used on too many computers in a short period of time. \r\n\r\nQ: The program stops to respond after I click on the activate button.\r\nA: Sometimes it may take up to half a minute to carry out the activation process. Be patient, the game will eventually report the result.\r\n\r\nQ: My computer does not have access to the internet. How can I activate the game?\r\nA: In this case you may use manual activation. Just click on "Enter Your Serial Key", and then "Manual Activation" buttons. You will still need to open up the manual activation web-page from another computer that is linked to the internet.\r\n
 ui_auto_adjust|Auto Adjust
 ui_screen_size|Screen Resolution:
-ui_antialiasing|Antialiasing:
 ui_use_desktop_resolution|Use Desktop Resolution
 ui_play|Play Mount&&Blade Warband
 ui_check_for_new_version|Check For New Version
@@ -78,8 +75,6 @@ ui_manual_activation_text3|3) ...and this machine's hardware hash:
 ui_manual_activation_text4|4) The page will then give you an activation code. Enter or paste it below and click OK.
 ui_activation_code|Activation Code:
 ui_force_vsync|Force Vertical Sync.
-ui_module_newer_than_application|The module you selected has been specified NOT TO WORK with the current version of the game. You are strongly advised not to run this setting. To remedy this, you may try checking for a newer version of the game.
-ui_module_older_than_application|The module you selected has been created for an older version of the game and may not work with the current version of the game. You may go ahead and try running it but there is a chance that you will run into difficulties. To remedy this, you may check if a newer version of the module is available.
 ui_m_low|Low
 ui_m_high|High
 ui_m_ultra_high|Ultra High

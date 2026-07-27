@@ -1,5 +1,5 @@
 stringsfile version 1
-4278
+4290
 str_no_string NO_STRING!
 str_empty_string _
 str_yes Yes.
@@ -1896,7 +1896,7 @@ str_prisoner_not_offered_parole Prisoner_not_offered_parole
 str__age_reg1_family_ ^Age:_{reg1}^Family:
 str_s49_s12_s11_rel_reg0 {s49}_{s12}_({s11},_rel:_{reg0}),
 str_s49_s12_s11 {s49}_{s12}_({s11}),
-str_lord_info_string {reg6?:{reg4?{s54}_is_the_ruler_of_{s56}.^:{s54}_is_{reg5?the_marshal_for:a_vassal_of}_{s55}_of_{s56}.^}}Renown:_{reg15}._Controversy:_{reg16}._Wealth:_{reg17}.^{reg9?{reg3?She:He}_is_the_{reg3?lady:lord}_of_{s58}.:{reg3?She:He}_has_no_fiefs.}{s59}^{s49}
+str_lord_info_string {reg6?:{reg4?{s54}_is_the_ruler_of_{s56}.^:{s54}_is_{reg5?the_marshal_for:a_vassal_of}_{s55}_of_{s56}.^}}Renown:_{reg15}._Controversy:_{reg16}._Personality:_{s61}._Wealth:_{reg17}.^{reg9?{reg3?She:He}_is_the_{reg3?lady:lord}_of_{s58}.:{reg3?She:He}_has_no_fiefs.}{s59}^{s49}
 str_updating_faction_notes_for_s14_temp_=_reg4 {!}Updating_faction_notes_for_{s14},_temp_=_{reg4}
 str_foreign_relations__ {s20}^Foreign_relations:_^
 str_s21__the_s5_is_at_war_with_the_s14 {s21}^*_The_{s5}_is_at_war_with_the_{s14}.
@@ -3561,6 +3561,7 @@ str_ctm_melee Your_opponent{reg0?s_are:_is}_ready_for_the_fight.
 str_ctm_ranged Stay_behind_the_line_on_the_ground_and_shoot_the_targets._Try_not_to_waste_any_shots.
 str_ctm_mounted Try_to_destroy_as_many_targets_as_you_can._You_have_two_and_a_half_minutes_to_clear_the_track.
 str_imod_plain {!}
+str_imod_plain_label Plain
 str_imod_cracked Cracked_
 str_imod_rusty Rusty_
 str_imod_bent Bent_
@@ -3647,6 +3648,17 @@ str_censure_response_8 I_have_a_better_idea.
 str_censure_response_9 I_have_a_better_idea.
 str_censure_response_10 Are_you_kidding_me?
 str_censure_response_end END
+str_attribute_str Strength
+str_attribute_agi Agility
+str_attribute_int Intelligence
+str_attribute_cha Charisma
+str_proficiency_one_handed_weapons One_Handed_Weapons
+str_proficiency_two_handed_weapons Two_Handed_Weapons
+str_proficiency_polearms Polearms
+str_proficiency_archery Archery
+str_proficiency_crossbows Crossbows
+str_proficiency_throwing Throwing
+str_proficiency_firearms Firearms
 str_skl_trade Trade
 str_skl_leadership Leadership
 str_skl_prisoner_management Prisoner_Management

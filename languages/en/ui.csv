@@ -140,7 +140,6 @@ ui_keep_fighting|Keep fighting
 ui_question_leave_area|Leave Area
 ui_cant_retreat_there_are_enemies_nearby|Can't retreat. There are enemies nearby!
 ui_question_retreat_battle|Retreat battle?
-ui_retreated_battle|%s has been routed.
 ui_retreated_battle|%s has fled from the battlefield.
 ui_retreat|Retreat
 ui_talk|Talk
@@ -154,7 +153,6 @@ ui_open|Open
 ui_equip|Equip
 ui_baggage|Baggage
 ui_access_inventory|Access inventory
-ui_chest|Chest
 ui_passage|Passage
 ui_go|Go
 ui_retreat_battle|Retreat Battle
@@ -168,7 +166,6 @@ ui_character|Character
 ui_party|Party
 ui_paused|Paused
 ui_click_left_button_to_cancel_wait|Waiting... (Left click to return)
-ui_midnight|Midnight
 ui_late_night|Late night
 ui_dawn|Dawn
 ui_early_morning|Early morning
@@ -632,7 +629,6 @@ ui_m_high2|High
 ui_m_ultra_high2|Ultra High
 ui_off2|Off
 ui_group_header|Class of troop
-ui_group_rename|Rename group
 ui_group_1|Infantry
 ui_group_2|Archers
 ui_group_3|Cavalry
