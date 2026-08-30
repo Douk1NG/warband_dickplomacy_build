@@ -1,4 +1,4 @@
-4538
+4549
 qstr_Auto_upgrade_complet Auto-upgrade_complete:_{reg6}_troops_upgraded_for_{reg7}_denars.
 qstr_You_have_deserted_fr You_have_deserted_from_the_party_of_{s13}!
 qstr_Notice! Notice!
@@ -4537,3 +4537,14 @@ qstr_[cstm_debug]_3_tiers_ [cstm-debug]_3_tiers_skin={reg0}_id={reg1}_name={s0}_
 qstr_[cstm_debug]_tree_pr [cstm-debug]_tree_prefix_sentinel_name_=_{s0}
 qstr_[cstm_debug]_===_end [cstm-debug]_===_end_dump_===
 qstr_[cstm_debug]_1_tier_m [cstm-debug]_1_tier_male={s0}_female={s1}._Check_rgl_log.txt_for_full_dump.
+qstr_Gunners Gunners
+qstr_Custom_5 Custom_5
+qstr_Custom_6 Custom_6
+qstr_Custom_7 Custom_7
+qstr_Custom_8 Custom_8
+qstr_Custom_9 Custom_9
+qstr_Group_4 Group_4
+qstr_DEBUG_KCT_load:_sele DEBUG_KCT_load:_selector={reg0}_cur_slot={reg1}_orig={reg2}_changed={reg3}
+qstr_DEBUG_KCT_dirty_pre_ DEBUG_KCT_dirty_pre-diff:_changes={reg0}_name={reg1}_class={reg2}_gender={reg3}
+qstr_DEBUG_KCT_event:_obj DEBUG_KCT_event:_obj={reg0}_val={reg1}_class_sel={reg2}_gender_sel={reg3}
+qstr_DEBUG_KCT_class_hand DEBUG_KCT_class_handler_FIRED:_new_val={reg0}_->_flag_set
