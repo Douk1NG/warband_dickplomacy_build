@@ -784,8 +784,6 @@ party_bo_skills_position_x = 0
 party_bo_skills_position_y = 0
 party_bo_skills_size_x = 0.35
 party_bo_skills_size_y = 0.75
-party_bo_skills_text_color = 0xFFE6D5B8
-party_bo_skills_highlight_text_color = 0xFFFFD86B
 
 party_t_skills_position_x = 0.1175
 party_t_skills_position_y = 0.705
@@ -1585,16 +1583,6 @@ escape_game_logo_position_y = 0.55
 escape_game_logo_size_x = 0.32
 escape_game_logo_size_y = 0.105
 
-escape_save_as_button_position_x = 0.18
-escape_save_as_button_position_y = 0.24
-escape_save_as_button_size_x = 0.25
-escape_save_as_button_size_y = 0.025
-escape_save_as_button_text_size_x = 0.032
-escape_save_as_button_text_size_y = 0.045
-escape_save_as_button_text_flags = 0x10
-escape_save_as_button_text_color = 0xFFE6D5B8
-escape_save_as_button_highlight_text_color = 0xFFFFD86B
-
 escape_return_button_position_x = 0.18
 escape_return_button_position_y = 0.48
 escape_return_button_size_x = 0.25
@@ -1602,38 +1590,8 @@ escape_return_button_size_y = 0.02
 escape_return_button_text_size_x = 0.032
 escape_return_button_text_size_y = 0.045
 escape_return_button_text_flags = 0x10
-escape_return_button_text_color = 0xFFE6D5B8
-escape_return_button_highlight_text_color = 0xFFFFD86B
-
-escape_save_exit_button_position_x = 0.18
-escape_save_exit_button_position_y = 0.36
-escape_save_exit_button_size_x = 0.25
-escape_save_exit_button_size_y = 0.025
-escape_save_exit_button_text_size_x = 0.032
-escape_save_exit_button_text_size_y = 0.045
-escape_save_exit_button_text_flags = 0x10
-escape_save_exit_button_text_color = 0xFFE6D5B8
-escape_save_exit_button_highlight_text_color = 0xFFFFD86B
-
-escape_exit_button_position_x = 0.18
-escape_exit_button_position_y = 0.18
-escape_exit_button_size_x = 0.25
-escape_exit_button_size_y = 0.025
-escape_exit_button_text_size_x = 0.032
-escape_exit_button_text_size_y = 0.045
-escape_exit_button_text_flags = 0x10
-escape_exit_button_text_color = 0xFFE6D5B8
-escape_exit_button_highlight_text_color = 0xFFFFD86B
-
-escape_save_button_position_x = 0.18
-escape_save_button_position_y = 0.3
-escape_save_button_size_x = 0.25
-escape_save_button_size_y = 0.025
-escape_save_button_text_size_x = 0.032
-escape_save_button_text_size_y = 0.045
-escape_save_button_text_flags = 0x10
-escape_save_button_text_color = 0xFFE6D5B8
-escape_save_button_highlight_text_color = 0xFFFFD86B
+escape_return_button_text_color = 0xFF110000
+escape_return_button_highlight_text_color = 0xFF40A000
 
 escape_options_button_position_x = 0.18
 escape_options_button_position_y = 0.42
@@ -1642,6 +1600,51 @@ escape_options_button_size_y = 0.05
 escape_options_button_text_size_x = 0.032
 escape_options_button_text_size_y = 0.045
 escape_options_button_text_flags = 0x10
-escape_options_button_text_color = 0xFFE6D5B8
-escape_options_button_highlight_text_color = 0xFFFFD86B
+escape_options_button_text_color = 0xFF110000
+escape_options_button_highlight_text_color = 0xFF40A000
 
+escape_save_exit_button_position_x = 0.18
+escape_save_exit_button_position_y = 0.36
+escape_save_exit_button_size_x = 0.25
+escape_save_exit_button_size_y = 0.025
+escape_save_exit_button_text_size_x = 0.032
+escape_save_exit_button_text_size_y = 0.045
+escape_save_exit_button_text_flags = 0x10
+escape_save_exit_button_text_color = 0xFF110000
+escape_save_exit_button_highlight_text_color = 0xFF40A000
+
+escape_save_button_position_x = 0.18
+escape_save_button_position_y = 0.30
+escape_save_button_size_x = 0.25
+escape_save_button_size_y = 0.025
+escape_save_button_text_size_x = 0.032
+escape_save_button_text_size_y = 0.045
+escape_save_button_text_flags = 0x10
+escape_save_button_text_color = 0xFF110000
+escape_save_button_highlight_text_color = 0xFF40A000
+
+escape_save_as_button_position_x = 0.18
+escape_save_as_button_position_y = 0.24
+escape_save_as_button_size_x = 0.25
+escape_save_as_button_size_y = 0.025
+escape_save_as_button_text_size_x = 0.032
+escape_save_as_button_text_size_y = 0.045
+escape_save_as_button_text_flags = 0x10
+escape_save_as_button_text_color = 0xFF110000
+escape_save_as_button_highlight_text_color = 0xFF40A000
+
+escape_exit_button_position_x = 0.18
+escape_exit_button_position_y = 0.18
+escape_exit_button_size_x = 0.25
+escape_exit_button_size_y = 0.025
+escape_exit_button_text_size_x = 0.032
+escape_exit_button_text_size_y = 0.045
+escape_exit_button_text_flags = 0x10
+escape_exit_button_text_color = 0xFF110000
+escape_exit_button_highlight_text_color = 0xFF40A000
+
+
+profile_character_shadow_position_x = 0.075
+profile_character_shadow_position_y = 0.085
+profile_character_shadow_size_x = 0.32
+profile_character_shadow_size_y = 0.13
