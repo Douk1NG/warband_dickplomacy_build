@@ -14,7 +14,7 @@ pt_desert_bandits Desert_Bandits 562949953421319 0 2 312 182 10 50 0 -1 -1 -1 -1
 pt_forest_bandits Forest_Bandits 562949953421526 0 28 312 178 10 50 0 -1 -1 -1 -1 -1 
 pt_mountain_bandits Mountain_Bandits 562949953421525 0 27 312 177 10 50 0 -1 -1 -1 -1 -1 
 pt_sea_raiders Sea_Raiders 562949953421527 0 2 312 179 10 50 0 -1 -1 -1 -1 -1 
-pt_deserters Deserters 844424930131971 0 26 312 -1 -1 -1 -1 -1 -1 
+pt_deserters Deserters 844424930131971 0 26 53 -1 -1 -1 -1 -1 -1 
 pt_merchant_caravan Merchant_Caravan 5629499534606373 0 1 11 195 1 1 0 28 5 25 0 -1 -1 -1 -1 
 pt_troublesome_bandits Troublesome_Bandits 2533274790658057 0 2 312 175 14 55 0 -1 -1 -1 -1 -1 
 pt_bandits_awaiting_ransom Bandits_Awaiting_Ransom 2533274790789129 0 3 312 175 24 58 0 196 1 1 1 -1 -1 -1 -1 
@@ -93,33 +93,33 @@ pt_cstm_kingdom_player_3_tiers_0_reinforcements_c {!}cstm_kingdom_player_3_tiers
 pt_cstm_kingdom_player_3_tiers_1_reinforcements_a {!}cstm_kingdom_player_3_tiers_1_reinforcements_a 0 0 1 0 161 5 10 0 162 1 2 0 163 1 2 0 -1 -1 -1 
 pt_cstm_kingdom_player_3_tiers_1_reinforcements_b {!}cstm_kingdom_player_3_tiers_1_reinforcements_b 0 0 1 0 164 2 4 0 165 2 4 0 166 2 4 0 -1 -1 -1 
 pt_cstm_kingdom_player_3_tiers_1_reinforcements_c {!}cstm_kingdom_player_3_tiers_1_reinforcements_c 0 0 1 0 167 1 2 0 168 1 2 0 169 1 2 0 -1 -1 -1 
-pt_cstm_kingdom_player_4_0_reinforcements_a {!}cstm_kingdom_player_4_0_reinforcements_a 0 0 1 0 1182 5 10 0 1183 1 2 0 1184 1 2 0 -1 -1 -1 
-pt_cstm_kingdom_player_4_0_reinforcements_b {!}cstm_kingdom_player_4_0_reinforcements_b 0 0 1 0 1185 2 3 0 1186 2 3 0 1187 2 3 0 1188 2 3 0 -1 -1 
-pt_cstm_kingdom_player_4_0_reinforcements_c {!}cstm_kingdom_player_4_0_reinforcements_c 0 0 1 0 1189 1 1 0 1190 1 1 0 1191 1 1 0 1192 1 1 0 1193 1 1 0 1194 1 1 0 
-pt_cstm_kingdom_player_4_1_reinforcements_a {!}cstm_kingdom_player_4_1_reinforcements_a 0 0 1 0 1204 5 10 0 1205 1 2 0 1206 1 2 0 -1 -1 -1 
-pt_cstm_kingdom_player_4_1_reinforcements_b {!}cstm_kingdom_player_4_1_reinforcements_b 0 0 1 0 1207 2 3 0 1208 2 3 0 1209 2 3 0 1210 2 3 0 -1 -1 
-pt_cstm_kingdom_player_4_1_reinforcements_c {!}cstm_kingdom_player_4_1_reinforcements_c 0 0 1 0 1211 1 1 0 1212 1 1 0 1213 1 1 0 1214 1 1 0 1215 1 1 0 1216 1 1 0 
-pt_cstm_kingdom_player_5_0_reinforcements_a {!}cstm_kingdom_player_5_0_reinforcements_a 0 0 1 0 1227 5 10 0 1228 2 4 0 -1 -1 -1 -1 
-pt_cstm_kingdom_player_5_0_reinforcements_b {!}cstm_kingdom_player_5_0_reinforcements_b 0 0 1 0 1229 3 5 0 1230 3 5 0 -1 -1 -1 -1 
-pt_cstm_kingdom_player_5_0_reinforcements_c {!}cstm_kingdom_player_5_0_reinforcements_c 0 0 1 0 1231 1 2 0 1232 1 2 0 1233 1 2 0 -1 -1 -1 
-pt_cstm_kingdom_player_5_1_reinforcements_a {!}cstm_kingdom_player_5_1_reinforcements_a 0 0 1 0 1237 5 10 0 1238 2 4 0 -1 -1 -1 -1 
-pt_cstm_kingdom_player_5_1_reinforcements_b {!}cstm_kingdom_player_5_1_reinforcements_b 0 0 1 0 1239 3 5 0 1240 3 5 0 -1 -1 -1 -1 
-pt_cstm_kingdom_player_5_1_reinforcements_c {!}cstm_kingdom_player_5_1_reinforcements_c 0 0 1 0 1241 1 2 0 1242 1 2 0 1243 1 2 0 -1 -1 -1 
-pt_cstm_kingdom_player_6_0_reinforcements_a {!}cstm_kingdom_player_6_0_reinforcements_a 0 0 1 0 1248 5 10 0 1249 2 4 0 -1 -1 -1 -1 
-pt_cstm_kingdom_player_6_0_reinforcements_b {!}cstm_kingdom_player_6_0_reinforcements_b 0 0 1 0 1250 3 5 0 1251 3 5 0 -1 -1 -1 -1 
-pt_cstm_kingdom_player_6_0_reinforcements_c {!}cstm_kingdom_player_6_0_reinforcements_c 0 0 1 0 1252 2 3 0 1253 2 3 0 -1 -1 -1 -1 
-pt_cstm_kingdom_player_6_1_reinforcements_a {!}cstm_kingdom_player_6_1_reinforcements_a 0 0 1 0 1254 5 10 0 1255 2 4 0 -1 -1 -1 -1 
-pt_cstm_kingdom_player_6_1_reinforcements_b {!}cstm_kingdom_player_6_1_reinforcements_b 0 0 1 0 1256 3 5 0 1257 3 5 0 -1 -1 -1 -1 
-pt_cstm_kingdom_player_6_1_reinforcements_c {!}cstm_kingdom_player_6_1_reinforcements_c 0 0 1 0 1258 2 3 0 1259 2 3 0 -1 -1 -1 -1 
-pt_cstm_kingdom_player_7_0_reinforcements_a {!}cstm_kingdom_player_7_0_reinforcements_a 0 0 1 0 1261 5 10 0 1262 1 2 0 1263 1 2 0 -1 -1 -1 
-pt_cstm_kingdom_player_7_0_reinforcements_b {!}cstm_kingdom_player_7_0_reinforcements_b 0 0 1 0 1264 3 5 0 1265 3 5 0 -1 -1 -1 -1 
-pt_cstm_kingdom_player_7_0_reinforcements_c {!}cstm_kingdom_player_7_0_reinforcements_c 0 0 1 0 1266 2 3 0 1267 2 3 0 -1 -1 -1 -1 
-pt_cstm_kingdom_player_7_1_reinforcements_a {!}cstm_kingdom_player_7_1_reinforcements_a 0 0 1 0 1270 5 10 0 1271 1 2 0 1272 1 2 0 -1 -1 -1 
-pt_cstm_kingdom_player_7_1_reinforcements_b {!}cstm_kingdom_player_7_1_reinforcements_b 0 0 1 0 1273 3 5 0 1274 3 5 0 -1 -1 -1 -1 
-pt_cstm_kingdom_player_7_1_reinforcements_c {!}cstm_kingdom_player_7_1_reinforcements_c 0 0 1 0 1275 2 3 0 1276 2 3 0 -1 -1 -1 -1 
-pt_cstm_kingdom_player_8_0_reinforcements_a {!}cstm_kingdom_player_8_0_reinforcements_a 0 0 1 0 1280 5 10 0 1281 1 2 0 1282 1 2 0 -1 -1 -1 
-pt_cstm_kingdom_player_8_0_reinforcements_b {!}cstm_kingdom_player_8_0_reinforcements_b 0 0 1 0 1283 3 5 0 1284 3 5 0 -1 -1 -1 -1 
-pt_cstm_kingdom_player_8_0_reinforcements_c {!}cstm_kingdom_player_8_0_reinforcements_c 0 0 1 0 1285 2 3 0 1286 2 3 0 -1 -1 -1 -1 
-pt_cstm_kingdom_player_8_1_reinforcements_a {!}cstm_kingdom_player_8_1_reinforcements_a 0 0 1 0 1289 5 10 0 1290 1 2 0 1291 1 2 0 -1 -1 -1 
-pt_cstm_kingdom_player_8_1_reinforcements_b {!}cstm_kingdom_player_8_1_reinforcements_b 0 0 1 0 1292 3 5 0 1293 3 5 0 -1 -1 -1 -1 
-pt_cstm_kingdom_player_8_1_reinforcements_c {!}cstm_kingdom_player_8_1_reinforcements_c 0 0 1 0 1294 2 3 0 1295 2 3 0 -1 -1 -1 -1 
+pt_cstm_kingdom_player_4_0_reinforcements_a {!}cstm_kingdom_player_4_0_reinforcements_a 0 0 1 0 1184 5 10 0 1185 1 2 0 1186 1 2 0 -1 -1 -1 
+pt_cstm_kingdom_player_4_0_reinforcements_b {!}cstm_kingdom_player_4_0_reinforcements_b 0 0 1 0 1187 2 3 0 1188 2 3 0 1189 2 3 0 1190 2 3 0 -1 -1 
+pt_cstm_kingdom_player_4_0_reinforcements_c {!}cstm_kingdom_player_4_0_reinforcements_c 0 0 1 0 1191 1 1 0 1192 1 1 0 1193 1 1 0 1194 1 1 0 1195 1 1 0 1196 1 1 0 
+pt_cstm_kingdom_player_4_1_reinforcements_a {!}cstm_kingdom_player_4_1_reinforcements_a 0 0 1 0 1206 5 10 0 1207 1 2 0 1208 1 2 0 -1 -1 -1 
+pt_cstm_kingdom_player_4_1_reinforcements_b {!}cstm_kingdom_player_4_1_reinforcements_b 0 0 1 0 1209 2 3 0 1210 2 3 0 1211 2 3 0 1212 2 3 0 -1 -1 
+pt_cstm_kingdom_player_4_1_reinforcements_c {!}cstm_kingdom_player_4_1_reinforcements_c 0 0 1 0 1213 1 1 0 1214 1 1 0 1215 1 1 0 1216 1 1 0 1217 1 1 0 1218 1 1 0 
+pt_cstm_kingdom_player_5_0_reinforcements_a {!}cstm_kingdom_player_5_0_reinforcements_a 0 0 1 0 1229 5 10 0 1230 2 4 0 -1 -1 -1 -1 
+pt_cstm_kingdom_player_5_0_reinforcements_b {!}cstm_kingdom_player_5_0_reinforcements_b 0 0 1 0 1231 3 5 0 1232 3 5 0 -1 -1 -1 -1 
+pt_cstm_kingdom_player_5_0_reinforcements_c {!}cstm_kingdom_player_5_0_reinforcements_c 0 0 1 0 1233 1 2 0 1234 1 2 0 1235 1 2 0 -1 -1 -1 
+pt_cstm_kingdom_player_5_1_reinforcements_a {!}cstm_kingdom_player_5_1_reinforcements_a 0 0 1 0 1239 5 10 0 1240 2 4 0 -1 -1 -1 -1 
+pt_cstm_kingdom_player_5_1_reinforcements_b {!}cstm_kingdom_player_5_1_reinforcements_b 0 0 1 0 1241 3 5 0 1242 3 5 0 -1 -1 -1 -1 
+pt_cstm_kingdom_player_5_1_reinforcements_c {!}cstm_kingdom_player_5_1_reinforcements_c 0 0 1 0 1243 1 2 0 1244 1 2 0 1245 1 2 0 -1 -1 -1 
+pt_cstm_kingdom_player_6_0_reinforcements_a {!}cstm_kingdom_player_6_0_reinforcements_a 0 0 1 0 1250 5 10 0 1251 2 4 0 -1 -1 -1 -1 
+pt_cstm_kingdom_player_6_0_reinforcements_b {!}cstm_kingdom_player_6_0_reinforcements_b 0 0 1 0 1252 3 5 0 1253 3 5 0 -1 -1 -1 -1 
+pt_cstm_kingdom_player_6_0_reinforcements_c {!}cstm_kingdom_player_6_0_reinforcements_c 0 0 1 0 1254 2 3 0 1255 2 3 0 -1 -1 -1 -1 
+pt_cstm_kingdom_player_6_1_reinforcements_a {!}cstm_kingdom_player_6_1_reinforcements_a 0 0 1 0 1256 5 10 0 1257 2 4 0 -1 -1 -1 -1 
+pt_cstm_kingdom_player_6_1_reinforcements_b {!}cstm_kingdom_player_6_1_reinforcements_b 0 0 1 0 1258 3 5 0 1259 3 5 0 -1 -1 -1 -1 
+pt_cstm_kingdom_player_6_1_reinforcements_c {!}cstm_kingdom_player_6_1_reinforcements_c 0 0 1 0 1260 2 3 0 1261 2 3 0 -1 -1 -1 -1 
+pt_cstm_kingdom_player_7_0_reinforcements_a {!}cstm_kingdom_player_7_0_reinforcements_a 0 0 1 0 1263 5 10 0 1264 1 2 0 1265 1 2 0 -1 -1 -1 
+pt_cstm_kingdom_player_7_0_reinforcements_b {!}cstm_kingdom_player_7_0_reinforcements_b 0 0 1 0 1266 3 5 0 1267 3 5 0 -1 -1 -1 -1 
+pt_cstm_kingdom_player_7_0_reinforcements_c {!}cstm_kingdom_player_7_0_reinforcements_c 0 0 1 0 1268 2 3 0 1269 2 3 0 -1 -1 -1 -1 
+pt_cstm_kingdom_player_7_1_reinforcements_a {!}cstm_kingdom_player_7_1_reinforcements_a 0 0 1 0 1272 5 10 0 1273 1 2 0 1274 1 2 0 -1 -1 -1 
+pt_cstm_kingdom_player_7_1_reinforcements_b {!}cstm_kingdom_player_7_1_reinforcements_b 0 0 1 0 1275 3 5 0 1276 3 5 0 -1 -1 -1 -1 
+pt_cstm_kingdom_player_7_1_reinforcements_c {!}cstm_kingdom_player_7_1_reinforcements_c 0 0 1 0 1277 2 3 0 1278 2 3 0 -1 -1 -1 -1 
+pt_cstm_kingdom_player_8_0_reinforcements_a {!}cstm_kingdom_player_8_0_reinforcements_a 0 0 1 0 1282 5 10 0 1283 1 2 0 1284 1 2 0 -1 -1 -1 
+pt_cstm_kingdom_player_8_0_reinforcements_b {!}cstm_kingdom_player_8_0_reinforcements_b 0 0 1 0 1285 3 5 0 1286 3 5 0 -1 -1 -1 -1 
+pt_cstm_kingdom_player_8_0_reinforcements_c {!}cstm_kingdom_player_8_0_reinforcements_c 0 0 1 0 1287 2 3 0 1288 2 3 0 -1 -1 -1 -1 
+pt_cstm_kingdom_player_8_1_reinforcements_a {!}cstm_kingdom_player_8_1_reinforcements_a 0 0 1 0 1291 5 10 0 1292 1 2 0 1293 1 2 0 -1 -1 -1 
+pt_cstm_kingdom_player_8_1_reinforcements_b {!}cstm_kingdom_player_8_1_reinforcements_b 0 0 1 0 1294 3 5 0 1295 3 5 0 -1 -1 -1 -1 
+pt_cstm_kingdom_player_8_1_reinforcements_c {!}cstm_kingdom_player_8_1_reinforcements_c 0 0 1 0 1296 2 3 0 1297 2 3 0 -1 -1 -1 -1 

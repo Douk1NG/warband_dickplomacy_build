@@ -402,6 +402,8 @@ inv_t_name1_text_size_y = 0.017
 inv_t_name1_size_x = 0.18
 inv_t_name1_size_y = 0.04
 inv_t_name1_text_flags = 0x10
+inv_t_name1_text_color = 0xFFE6D5B8
+inv_t_name1_highlight_text_color = 0xFFFFD86B
 
 inv_t_name2_position_x = 0.075
 inv_t_name2_position_y = 0.709
@@ -410,6 +412,8 @@ inv_t_name2_text_size_y = 0.017
 inv_t_name2_size_x = 0.18
 inv_t_name2_size_y = 0.04
 inv_t_name2_text_flags = 0x10
+inv_t_name2_text_color = 0xFFE6D5B8
+inv_t_name2_highlight_text_color = 0xFFFFD86B
 
 inv_b_leave_position_x = 0.512
 inv_b_leave_position_y = 0.03
@@ -430,7 +434,8 @@ inv_t_armor_base_size_y = 0.022
 inv_t_armor_base_text_size_x = 0.017
 inv_t_armor_base_text_size_y = 0.017
 inv_t_armor_base_text_flags = 0x10
-inv_t_armor_base_text_color = 0xFF000000
+inv_t_armor_base_highlight_text_color = 0xFFFFD86B
+inv_t_armor_base_text_color = 0xFFE6D5B8
 
 inv_t_armor_base2_position_x = 0.17
 inv_t_armor_base2_position_y = 0.18
@@ -439,6 +444,8 @@ inv_t_armor_base2_size_y = 0.022
 inv_t_armor_base2_text_size_x = 0.017
 inv_t_armor_base2_text_size_y = 0.017
 inv_t_armor_base2_text_flags = 0x10
+inv_t_armor_base2_text_color = 0xFFE6D5B8
+inv_t_armor_base2_highlight_text_color = 0xFFFFD86B
 
 inv_i_character_position_x = 0.34
 inv_i_character_position_y = 0.017
@@ -712,6 +719,8 @@ party_t_prisoner_management_position_y = 0.093125
 party_t_prisoner_management_size_x = 0.265
 party_t_prisoner_management_size_y = 0.15
 party_t_prisoner_management_text_flags = 0x111
+party_t_prisoner_management_text_color = 0xFFE6D5B8
+party_t_prisoner_management_highlight_text_color = 0xFFFFD86B
 
 party_t_morale_position_x = 0.68
 party_t_morale_position_y = 0.062
@@ -784,6 +793,8 @@ party_bo_skills_position_x = 0
 party_bo_skills_position_y = 0
 party_bo_skills_size_x = 0.35
 party_bo_skills_size_y = 0.75
+party_bo_skills_text_color = 0xFFE6D5B8
+party_bo_skills_highlight_text_color = 0xFFFFD86B
 
 party_t_skills_position_x = 0.1175
 party_t_skills_position_y = 0.705
@@ -813,6 +824,8 @@ party_t_selected_troop_name_size_y = 0.02
 party_t_selected_troop_name_text_size_x = 0.02
 party_t_selected_troop_name_text_size_y = 0.02
 party_t_selected_troop_name_text_flags = 0x10
+party_t_selected_troop_name_text_color = 0xFFE6D5B8
+party_t_selected_troop_name_highlight_text_color = 0xFFFFD86B
 
 #Party_window_variables
 party_b_done_h = 0.04
@@ -1590,8 +1603,8 @@ escape_return_button_size_y = 0.02
 escape_return_button_text_size_x = 0.032
 escape_return_button_text_size_y = 0.045
 escape_return_button_text_flags = 0x10
-escape_return_button_text_color = 0xFF110000
-escape_return_button_highlight_text_color = 0xFF40A000
+escape_return_button_text_color = 0xFFE6D5B8
+escape_return_button_highlight_text_color = 0xFFFFD86B
 
 escape_options_button_position_x = 0.18
 escape_options_button_position_y = 0.42
@@ -1600,8 +1613,8 @@ escape_options_button_size_y = 0.05
 escape_options_button_text_size_x = 0.032
 escape_options_button_text_size_y = 0.045
 escape_options_button_text_flags = 0x10
-escape_options_button_text_color = 0xFF110000
-escape_options_button_highlight_text_color = 0xFF40A000
+escape_options_button_text_color = 0xFFE6D5B8
+escape_options_button_highlight_text_color = 0xFFFFD86B
 
 escape_save_exit_button_position_x = 0.18
 escape_save_exit_button_position_y = 0.36
@@ -1610,8 +1623,8 @@ escape_save_exit_button_size_y = 0.025
 escape_save_exit_button_text_size_x = 0.032
 escape_save_exit_button_text_size_y = 0.045
 escape_save_exit_button_text_flags = 0x10
-escape_save_exit_button_text_color = 0xFF110000
-escape_save_exit_button_highlight_text_color = 0xFF40A000
+escape_save_exit_button_text_color = 0xFFE6D5B8
+escape_save_exit_button_highlight_text_color = 0xFFFFD86B
 
 escape_save_button_position_x = 0.18
 escape_save_button_position_y = 0.30
@@ -1620,8 +1633,8 @@ escape_save_button_size_y = 0.025
 escape_save_button_text_size_x = 0.032
 escape_save_button_text_size_y = 0.045
 escape_save_button_text_flags = 0x10
-escape_save_button_text_color = 0xFF110000
-escape_save_button_highlight_text_color = 0xFF40A000
+escape_save_button_text_color = 0xFFE6D5B8
+escape_save_button_highlight_text_color = 0xFFFFD86B
 
 escape_save_as_button_position_x = 0.18
 escape_save_as_button_position_y = 0.24
@@ -1630,8 +1643,8 @@ escape_save_as_button_size_y = 0.025
 escape_save_as_button_text_size_x = 0.032
 escape_save_as_button_text_size_y = 0.045
 escape_save_as_button_text_flags = 0x10
-escape_save_as_button_text_color = 0xFF110000
-escape_save_as_button_highlight_text_color = 0xFF40A000
+escape_save_as_button_text_color = 0xFFE6D5B8
+escape_save_as_button_highlight_text_color = 0xFFFFD86B
 
 escape_exit_button_position_x = 0.18
 escape_exit_button_position_y = 0.18
@@ -1640,8 +1653,8 @@ escape_exit_button_size_y = 0.025
 escape_exit_button_text_size_x = 0.032
 escape_exit_button_text_size_y = 0.045
 escape_exit_button_text_flags = 0x10
-escape_exit_button_text_color = 0xFF110000
-escape_exit_button_highlight_text_color = 0xFF40A000
+escape_exit_button_text_color = 0xFFE6D5B8
+escape_exit_button_highlight_text_color = 0xFFFFD86B
 
 
 profile_character_shadow_position_x = 0.075
