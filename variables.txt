@@ -2223,3 +2223,6 @@ g_map_work_ai_recalculations
 g_map_work_icon_updates
 g_map_work_inventory_opens
 g_map_work_active_parties
+g_kct_native_simple_trigger_seen
+kct_native_load_diag_done
+cstm_customize_armor_button
