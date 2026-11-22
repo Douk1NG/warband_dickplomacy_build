@@ -1,0 +1,137 @@
+name: Publish to Nexus Mods
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out release
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check out source changelog
+        uses: actions/checkout@v4
+        with:
+          repository: Douk1NG/warband_mod_source_alxva
+          path: source
+
+      - name: Load Nexus changelog
+        id: changelog
+        shell: bash
+        run: |
+          changelog_file="source/docs/updates/nexus/1.0.3.2/changelog.md"
+          test -s "$changelog_file" || { echo "Missing release changelog: $changelog_file" >&2; exit 1; }
+          cp "$changelog_file" Nexus-Changelog-1.0.3.2.md
+          {
+            echo 'text<<CHANGELOG_EOF'
+            cat "$changelog_file"
+            echo 'CHANGELOG_EOF'
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Package module
+        shell: bash
+        run: |
+          release_dir="$RUNNER_TEMP/dickplomacy-update"
+          mkdir -p "$release_dir"
+          git diff --name-only e09df65 f6249af -- \
+            ':!.github' ':!CHANGELOG.md' ':!.gitignore' ':!tools' \
+            | while IFS= read -r file; do
+                [ -n "$file" ] || continue
+                mkdir -p "$release_dir/$(dirname "$file")"
+                git show "f6249af:$file" > "$release_dir/$file"
+              done
+          test -f "$release_dir/scripts.txt" || { echo 'Incremental package is missing scripts.txt' >&2; exit 1; }
+          cd "$release_dir"
+          zip -r "$GITHUB_WORKSPACE/Dickplomacy_Reloaded-1.0.3.2.zip" .
+          unzip -t "$GITHUB_WORKSPACE/Dickplomacy_Reloaded-1.0.3.2.zip"
+
+      - name: Resolve Nexus mod file ID
+        id: nexus-file
+        env:
+          NEXUSMODS_API_KEY: ${{ secrets.NEXUSMODS_API_KEY }}
+        shell: bash
+        run: |
+          mod=$(curl --fail --silent --show-error \
+            -H "apikey: ${NEXUSMODS_API_KEY}" \
+            -H "Application-Name: Dickplomacy Reloaded Publisher" \
+            -H "Application-Version: 1.0.0" \
+            https://api.nexusmods.com/v3/games/mbwarband/mods/6818)
+          mod_id=$(jq -er '.data.id' <<< "$mod")
+          response=$(curl --fail --silent --show-error \
+            -H "apikey: ${NEXUSMODS_API_KEY}" \
+            -H "Application-Name: Dickplomacy Reloaded Publisher" \
+            -H "Application-Version: 1.0.0" \
+            "https://api.nexusmods.com/v3/mods/${mod_id}/files")
+          file_id=$(jq -er '
+            [.data.mod_files[] | select(.name == "Dickplomacy Reloaded") | .id]
+            | if length == 1 then .[0] else error("Expected exactly one Nexus mod file named Dickplomacy Reloaded") end
+          ' <<< "$response")
+          echo "Resolved Nexus ModFile ID: $file_id"
+          echo "mod_id=$mod_id" >> "$GITHUB_OUTPUT"
+          echo "file_id=$file_id" >> "$GITHUB_OUTPUT"
+
+      - name: Check whether version already exists
+        id: existing-version
+        env:
+          NEXUSMODS_API_KEY: ${{ secrets.NEXUSMODS_API_KEY }}
+          NEXUS_FILE_ID: ${{ steps.nexus-file.outputs.file_id }}
+        shell: bash
+        run: |
+          versions=$(curl --fail --silent --show-error \
+            -H "apikey: ${NEXUSMODS_API_KEY}" \
+            -H "Application-Name: Dickplomacy Reloaded Publisher" \
+            -H "Application-Version: 1.0.0" \
+            "https://api.nexusmods.com/v3/mod-files/${NEXUS_FILE_ID}/versions")
+          if jq -e '.data.versions[] | select(.version == "1.0.3.2")' <<< "$versions" >/dev/null; then
+            echo 'Version 1.0.3.2 already exists; skipping binary upload.'
+            echo 'exists=true' >> "$GITHUB_OUTPUT"
+          else
+            echo 'Version 1.0.3.2 is not present; upload will proceed.'
+            echo 'exists=false' >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Upload version to Nexus Mods
+        if: steps.existing-version.outputs.exists != 'true'
+        uses: Nexus-Mods/upload-action@v1.0.0-beta.11
+        with:
+          api_key: ${{ secrets.NEXUSMODS_API_KEY }}
+          file_id: ${{ steps.nexus-file.outputs.file_id }}
+          filename: Dickplomacy_Reloaded-1.0.3.2.zip
+          version: '1.0.3.2'
+          display_name: Dickplomacy Reloaded
+          category: main
+          archive_existing_version: false
+          update_mod_version: true
+
+      - name: Add Nexus changelog if missing
+        env:
+          NEXUSMODS_API_KEY: ${{ secrets.NEXUSMODS_API_KEY }}
+          NEXUS_MOD_ID: ${{ steps.nexus-file.outputs.mod_id }}
+          CHANGELOG_TEXT: ${{ steps.changelog.outputs.text }}
+        shell: bash
+        run: |
+          existing=$(curl --fail --silent --show-error \
+            -H "apikey: ${NEXUSMODS_API_KEY}" \
+            -H "Application-Name: Dickplomacy Reloaded Publisher" \
+            -H "Application-Version: 1.0.0" \
+            "https://api.nexusmods.com/v3/mods/${NEXUS_MOD_ID}/changelogs")
+          if jq -e '.data[] | select(.version == "1.0.3.2")' <<< "$existing" >/dev/null; then
+            echo 'Changelog for 1.0.3.2 already exists; skipping append.'
+            exit 0
+          fi
+          body=$(jq -n --arg version '1.0.3.2' --arg changelog "$CHANGELOG_TEXT" '{version: $version, changelog: $changelog}')
+          curl --fail --silent --show-error \
+            -X POST \
+            -H "apikey: ${NEXUSMODS_API_KEY}" \
+            -H "Application-Name: Dickplomacy Reloaded Publisher" \
+            -H "Application-Version: 1.0.0" \
+            -H 'Content-Type: application/json' \
+            --data "$body" \
+            "https://api.nexusmods.com/v3/mods/${NEXUS_MOD_ID}/changelogs"
+          echo 'Nexus changelog added.'
